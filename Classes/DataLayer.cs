@@ -470,8 +470,7 @@ namespace VbElTerminali.Classes
 
         private static string GetConnectionString(string yil)
         {
-            string connectionString = string.Format("Data Source=192.168.1.11;initial Catalog=VITA{0};User id=sa;pwd=sapass;",yil);
-            return connectionString;
+           
         }
 
       
